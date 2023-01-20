@@ -1,0 +1,4 @@
+project: mqtt2prometheus
+target: mqtt2prometheus-parser-fuzz
+cmds:
+  - cmd: ./parser-fuzz.libfuzzer
